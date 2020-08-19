@@ -2,7 +2,7 @@
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": “IAM_Permissions_For_CodeBuild_Setup,
+      "Sid": "IAM_Permissions_For_CodeBuild_Setup",
       "Action": [
         "iam:AddRoleToInstanceProfile",
         "iam:AttachRolePolicy",
