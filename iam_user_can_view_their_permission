@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "UserCanViewTheirPermission",
+            "Action": [
+                "iam:GetUser",
+                "iam:GetGroup",
+                "iam:ListAttachedGroupPolicies",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListGroups",
+                "iam:ListGroupsForUser",
+                "iam:ListUserPolicies",
+                "iam:ListGroupPolicies",
+                "iam:ListPolicies",
+                "iam:GetPolicyVersion",
+                "iam:ListRolePolicies"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
+}
