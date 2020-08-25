@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Sid": "AWSAccountSpecificIPAllow",
+    "Effect": "Deny",
+    "Action": "*",
+    "Resource": "*",
+    "Condition": {
+      "NotIpAddress": {
+        "aws:SourceIp": [
+          "222.88.35.30/32",
+          "12.136.175.15/32",
+          "203.71.75.22/32"
+        ]
+      }
+    }
+  }
+}

@@ -5,11 +5,6 @@
             "Sid": "UserCanViewTheirPermission",
             "Action": [
                 "iam:GetUser",
-        	"iam:ListAccountAliases",
-        	"iam:ListUsers",
-        	"iam:ListVirtualMFADevices",
-        	"iam:GetAccountPasswordPolicy",
-        	"iam:GetAccountSummary"
                 "iam:GetGroup",
                 "iam:ListAttachedGroupPolicies",
                 "iam:ListAttachedUserPolicies",
@@ -19,7 +14,12 @@
                 "iam:ListGroupPolicies",
                 "iam:ListPolicies",
                 "iam:GetPolicyVersion",
-                "iam:ListRolePolicies"
+                "iam:ListRolePolicies",
+		"iam:ListAccountAliases",
+        	"iam:ListUsers",
+        	"iam:ListVirtualMFADevices",
+        	"iam:GetAccountPasswordPolicy",
+        	"iam:GetAccountSummary"
             ],
             "Effect": "Allow",
             "Resource": "*"
